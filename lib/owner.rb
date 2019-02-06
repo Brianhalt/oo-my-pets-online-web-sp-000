@@ -31,7 +31,7 @@ class Owner
   def walk_dogs
     @pets.collect do |species, instances|
       if species == :dogs
-        instances.each do |dog|  
+        instances.each do |dog|
           dog.mood = "happy"
         end
       end
@@ -41,27 +41,27 @@ class Owner
   def play_with_cats
     @pets.collect do |species, instances|
       if species == :cats
-        instances.each do |cat|  
+        instances.each do |cat|
           cat.mood = "happy"
         end
       end
     end
   end
-  
+
   def feed_fish
-  
+
   end
-  
+
   def sell_pets
-  
+
   end
-  
+
   def list_pets
-  
+
   end
 
 
-  
+
   def self.reset_all
     @@all.clear
   end
