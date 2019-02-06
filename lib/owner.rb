@@ -29,7 +29,7 @@ class Owner
 
   def self.owner_count
     @@owner_count
-  end  
+  end
 
   def self.all
     @@all
