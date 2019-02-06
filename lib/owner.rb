@@ -2,6 +2,7 @@ class Owner
   # has many pets
   attr_accessor :pets, :owner
   @@all = []
+  @@owner_count = 0
 
   def initialize(pets)
     @pets = pets
@@ -25,6 +26,10 @@ class Owner
     @fishes << name
     fish.owner = self
   end
+
+  def self.owner_count
+    @@owner_count
+  end  
 
   def self.all
     @@all
