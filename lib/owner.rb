@@ -54,8 +54,12 @@ class Owner
   #
   # end
   #
-  def self.owner_count
-    @@owner_count
+  def self.reset_all
+    @@all.clear
+  end
+
+  def self.count
+    @@all.size
   end
 
   def self.all
