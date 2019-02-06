@@ -30,36 +30,36 @@ class Owner
     fish.owner = self
   end
 
-  def species
-
-  end
-
-  def walk_dogs
-
-  end
-
-  def play_with_cats
-
-  end
-
-  def feed_fish
-
-  end
-
-  def sell_pets
-
-  end
-
-  def list_pets
-
-  end
-
-  def self.owner_count
-    @@owner_count
-  end
-
-  def self.all
-    @@all
-  end
+  # def species
+  # 
+  # end
+  # 
+  # def walk_dogs
+  # 
+  # end
+  # 
+  # def play_with_cats
+  # 
+  # end
+  # 
+  # def feed_fish
+  # 
+  # end
+  # 
+  # def sell_pets
+  # 
+  # end
+  # 
+  # def list_pets
+  # 
+  # end
+  # 
+  # def self.owner_count
+  #   @@owner_count
+  # end
+  # 
+  # def self.all
+  #   @@all
+  # end
 
 end
