@@ -1,4 +1,4 @@
-class Cat
+class Dog
   # belongs to owner
   attr_accessor :mood
   attr_reader :name
