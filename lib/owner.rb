@@ -15,12 +15,15 @@ class Owner
   end
 
   def buy_dog(name)
+    dog = Dog.new(name)
     @dogs << name
-
+    dog.owner = self
   end
 
   def buy_fish(name)
+    fish = Fish.new(name)
     @fishes << name
+    fish.owner = self
 
   end
 
