@@ -5,13 +5,10 @@ class Owner
   @@all = []
   @@owner_count = 0
 
-  def initialize(pets)
-    @pets = pets
-    @name = []
-    @species = []
-    @say_species = []
-
+  def initialize(species)
+    @species = species
     @@all << self
+    @pets = [{:fishes => [], :dogs => [], :cats => []}
   end
 
   def buy_cat
