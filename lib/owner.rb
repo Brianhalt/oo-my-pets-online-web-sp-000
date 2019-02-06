@@ -24,7 +24,6 @@ class Owner
     fish = Fish.new(name)
     @fishes << name
     fish.owner = self
-
   end
 
 end
