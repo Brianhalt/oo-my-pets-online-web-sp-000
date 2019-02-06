@@ -12,20 +12,16 @@ class Owner
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
-  def buy_cat
-    cat = Cat.new(name)
-    @cats << name
-    cat.owner = self
+  def buy_cat(name)
+    @pets[:cats] << Fish.new(name)
   end
 
   def buy_dog(name)
-    dog = Dog.new(name)
-    @dogs << name
-    dog.owner = self
+    @pets[:dogs] << Dog.new(name)
   end
 
   def buy_fish(name)
-    @pets[:fishes] << Fish.new(name_of_fish)
+    @pets[:fishes] << Fish.new(name)
   end
 
   def say_species
