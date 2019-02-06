@@ -30,10 +30,10 @@ class Owner
     fish.owner = self
   end
 
-  # def species
-  #
-  # end
-  #
+  def species
+    return "I am a #{@species}."
+  end
+
   # def walk_dogs
   #
   # end
