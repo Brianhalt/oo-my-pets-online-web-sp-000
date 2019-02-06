@@ -4,17 +4,9 @@ class Cat
   attr_reader :name
 
 
-  def initialize(pets)
+  def initialize(name)
     @name = name
-    @mood = mood
-    @@all << self
+    @mood = "nervous"
   end
-
-  def buy_cat
-
-  end
-
-  def self.all
-    @@all
-  end
+  
 end
