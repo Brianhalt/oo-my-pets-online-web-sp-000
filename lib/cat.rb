@@ -12,5 +12,7 @@ end
 
   end
 
-  def buy
+  def self.all
+    @@all
+  end
 end
