@@ -1,6 +1,7 @@
 class Owner
   # has many pets
-  attr_accessor :pets, :owner
+  attr_accessor :pets, :name
+  attr_reader :species
   @@all = []
   @@owner_count = 0
 
@@ -31,6 +32,31 @@ class Owner
     fish.owner = self
   end
 
+  def species
+
+  end
+
+  def walk_dogs
+
+  end
+
+  def play_with_cats
+
+  end
+
+  def feed_fish
+
+  end
+
+  def sell_pets
+
+
+  end
+
+  def list_pets
+
+  end
+  
   def self.owner_count
     @@owner_count
   end
