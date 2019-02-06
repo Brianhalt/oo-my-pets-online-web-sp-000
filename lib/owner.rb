@@ -1,9 +1,10 @@
+require 'pry'
+
 class Owner
   # has many pets
   attr_accessor :pets, :name
   attr_reader :species
   @@all = []
-  @@owner_count = 0
 
   def initialize(species)
     @species = species
@@ -46,7 +47,6 @@ class Owner
   end
 
   def sell_pets
-
 
   end
 
