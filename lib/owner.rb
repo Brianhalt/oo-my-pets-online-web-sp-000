@@ -54,12 +54,12 @@ class Owner
   #
   # end
   #
-  # def self.owner_count
-  #   @@owner_count
-  # end
-  #
-  # def self.all
-  #   @@all
-  # end
+  def self.owner_count
+    @@owner_count
+  end
+
+  def self.all
+    @@all
+  end
 
 end
