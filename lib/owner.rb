@@ -56,7 +56,7 @@ class Owner
   def list_pets
 
   end
-  
+
   def self.owner_count
     @@owner_count
   end
