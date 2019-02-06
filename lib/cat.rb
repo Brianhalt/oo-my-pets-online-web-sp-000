@@ -6,7 +6,6 @@ class Cat
     @pets = pets
     @@all << self
   end
-end
 
   def buy_cat
 
