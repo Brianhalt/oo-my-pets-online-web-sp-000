@@ -1,6 +1,8 @@
 class Cat
   # belongs to owner
-  attr_accessor :name, :mood
+  attr_accessor :mood
+  attr_reader :name
+
 
   def initialize(pets)
     @name = name
