@@ -1,9 +1,10 @@
 class Cat
   # belongs to owner
-  attr_accessor :pets
+  attr_accessor :name, :mood
 
   def initialize(pets)
-    @pets = pets
+    @name = name
+    @mood = mood
     @@all << self
   end
 
