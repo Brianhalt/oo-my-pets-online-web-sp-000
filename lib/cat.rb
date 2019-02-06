@@ -4,9 +4,7 @@ class Cat
 
   def initialize(pets)
     @pets = pets
-    @fishes = []
-    @cats = []
-    @dogs = []
+    @@all << self
   end
 end
 
