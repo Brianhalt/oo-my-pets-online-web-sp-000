@@ -1,18 +1,27 @@
 class Owner
   # has many pets
-  attr_accessor :pets
+  attr_accessor :pets, :owner
+  @@all = []
 
   def initialize(pets)
     @pets = pets
-    @fishes = []
-    @cats = []
-    @dogs = []
+    @@all << self
   end
-end
 
   def buy_cat
+    cat = Cat.new(name)
+    @cats << name
+    cat.owner = self    
+  end
+
+  def buy_dog(name)
+    @dogs << name
 
   end
 
-  def buy
+  def buy_fish(name)
+    @fishes << name
+
+  end
+  
 end
