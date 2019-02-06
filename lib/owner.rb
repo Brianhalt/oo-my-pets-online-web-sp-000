@@ -9,7 +9,7 @@ class Owner
     @name = []
     @species = []
     @say_species = []
-    
+
     @@all << self
   end
 
