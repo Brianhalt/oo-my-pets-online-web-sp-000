@@ -26,4 +26,8 @@ class Owner
     fish.owner = self
   end
 
+  def self.all
+    @@all
+  end
+
 end
